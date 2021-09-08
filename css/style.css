@@ -1,0 +1,449 @@
+/* navbar */
+.text1{
+    font-weight: 900;
+}
+.nav-text2{
+    font-weight: 700;
+}
+.nav-space{
+    margin-top: -20px;
+}
+.icon-color1{
+  color: black;
+}
+/* navbar end  */
+
+
+/* mobile start  */
+
+.mobileBtn{
+    align-items: center;
+    text-align: center;
+    
+}
+.mobileBtn a{
+    text-decoration: none;
+    margin-left: 5%;
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+    
+}
+
+
+/* mobile end  */
+
+/* Tv & Av start  */
+
+ 
+
+.tvAndAvBg{
+  background-image:url(../image/TvandAv/02.jpg);
+   
+   width: 100%;
+   height: 700px;
+}
+
+@media screen and (max-height: 400px) {
+    .tvAndAvBg {
+        width: auto;
+       height: auto;
+    }
+}
+/* Tv & Av end  */
+
+
+
+.Refrigerators{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 1%;
+}
+.homeAppliance{
+    text-align: center;
+    position: relative;
+    
+}
+.homeAppliance a{
+    text-decoration: none;
+    color: black;
+    font-weight:500;
+    margin: 1%;
+}
+.refTittle{
+    text-align: center;
+    
+    color: aliceblue;
+    
+   
+    padding-bottom: 4%;
+    padding-top: -20px;
+    position: relative;
+    
+}
+.refP a{
+    text-decoration: none;
+ 
+}
+.seeAllRefrigerator{
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 2%;
+}
+.lelarnMore{
+    color: black;
+}
+.applianceImg{
+    height: 600px;
+    width: 100%;
+    
+    
+
+}
+
+.RefrigeratorsImg{
+
+/* background-image: url("../image/refrigerator/01reg.webp"); */
+background-repeat: no-repeat;
+/* width: 100%; */
+height: 600px;
+/* margin-top: 0px; */
+position: relative;
+animation-name: example;
+animation-duration: 3s;
+}
+.applianceImage{
+    /* margin-top: -30px; */
+}
+
+.washerImg{
+    /* background-image: url("../image/refrigerator/02washerimg.jpg"); */
+background-repeat: no-repeat;
+/* width: 1400px; */
+height: 600px;
+/* width: 100%; */
+
+/* margin-top: 0px; */
+position: relative;
+animation-name: example2;
+animation-duration: 3s;
+background-size: cover;
+/* margin-top: -30px; */
+
+
+}
+ 
+  @keyframes example {
+    0%   { left:-1200px; top:0px;}
+    50%  { left:0px; top:0px;}
+   
+  }
+  @keyframes example2 {
+    0%   { left:-1200px; top:0px;}
+    50%  { left:-0px; top:0px;}
+   
+  }
+
+  .ApplianceH1{
+      /* padding-top: 30%; */
+      margin-top: -50px;
+      position: relative;
+      color: black;
+  }
+  .lelarnMore{
+      position: relative;
+     
+  }
+  .seeAllRefrigerator{
+    position: relative;
+}
+.applianceGradiant{
+    /* background-image: linear-gradient(to top, rgb(255, 255, 255,1), rgb(255, 255, 255,0)); */
+    background-image:linear-gradient(to bottom, rgba(255, 255, 255, 0.733), rgb(255, 255, 255));
+    
+    position: relative;
+}
+/* Month Picks Section */
+
+.monthPicksSection{
+    height:100%;
+}
+.monthPicksSectionButton{
+   margin-bottom: 5%;
+   visibility: hidden;
+   background-color: black;
+   color: white;
+   border-radius: 10px;
+}
+.theMonthPicks:hover .monthPicksSectionButton{
+    visibility: visible;
+    transition: all 1s ease;
+   
+    
+}
+.theMonthPicks:hover .theMonthPicksImage{
+    transform: scale(1.1);
+    transition: all 1s ease;
+   
+    
+}
+.monthPicksHeaderTitle{
+    margin-top: 5%;
+    margin-bottom: 3%;
+    text-align: center;
+}
+.monthPicProductTitleBtn{
+    align-items: center;
+    text-align: center;
+    
+}
+.monthPicProductTitleBtn a{
+    text-decoration: none;
+    margin-left: 5%;
+    color: black;
+    font-weight: 600;
+    font-size: 25px;
+    
+}
+.theMonthPicks{
+    
+    background-color: rgb(206, 206, 206);
+    align-items: center;
+    text-align: center;
+    border-radius:20px;
+    padding: 2%;
+    margin: 1%;
+    
+ 
+    
+}
+
+/* Explore #DoWhatYouCant start */
+.exploreDoWhatYouCant{
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+/* title */
+.ExploreHeader {
+   
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    
+    
+    display: inline-block;
+    padding: 15px 20px;
+    position: relative;
+  
+    margin-bottom: 2%;
+  }
+  .ExploreHeader:after {   
+  
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: rgb(0, 0, 0);
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+   
+    /* margin-bottom:40px ; */ 
+  }
+  .ExploreHeader:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
+  .ExploreTitle{
+      text-align: center;
+  }
+  @media screen and (max-height: 300px) {
+      .ExploreTitle {
+          margin-top: 40px;
+      }
+  }
+  
+  /* 2nd 6 colum  */
+.exploretopicAncore{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin-left: 10%;
+    display: none;
+}
+.exploretopicH4{
+    margin-top: 5%;
+}
+
+
+/* ///////////////////////////////////////// */
+.exploretopicOne {
+   
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    
+    
+    display: inline-block;
+    padding: 15px 20px;
+    position: relative;
+  
+    margin-bottom: 2%;
+  }
+  .exploretopicOne:after {   
+  
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: rgb(0, 0, 0);
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+   
+    margin-bottom:110px ; 
+  }
+  .exploretopicOne:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
+  .exploretopicOne:hover .exploretopicAncore{ 
+    display: block;
+  }
+
+  /* image part  */
+  .exploreImageFirst{
+    
+    display: block;
+  }
+
+  .exploreImageDivOne:hover .exploreImageFirst{ 
+    display: block;
+  }
+  
+  .exploreImageSecond{
+     display: none;
+  }
+ 
+  .exploreImageDivTwo:hover .exploreImageSecond{ 
+    display: block;
+  }
+  .exploreImageDivTwo:hover .exploreImageFirst{ 
+    display: none;
+  }
+  .exploreImageThird{
+      display: none;
+  }
+  .exploreImageDivThree:hover .exploreImageThird{ 
+    display: block;
+  }
+  .exploreImageDivThree:hover .exploreImageSecond{ 
+    display: none;
+  }
+  .exploreImageDivThree:hover .exploreImageFirst{ 
+    display: none;
+  }
+
+
+/* Explore #DoWhatYouCant end */
+
+
+/* footer start  */
+.footer-tag a {
+    text-decoration: none;
+}
+
+
+.largeDeviceFooter{
+    /* visibility: visible; */
+    display: block;
+
+}
+.dropdownfooter{
+    /* visibility: hidden; */
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .largeDeviceFooter {
+      /* visibility: hidden; */
+      display: none;
+    }
+    .dropdownfooter{
+     
+        display:block;
+    }
+  }
+
+  /* footer search box  */
+ 
+/* Bootstrap 4 text input with search icon */
+.FooterDeviceButton{
+    background-color:rgb(216, 212, 212);
+    border-radius:20px;
+    font-size: 13px;
+    padding: 2%;
+    margin-top: 1%;
+    
+}
+.Footerbutton{
+    margin-bottom: 5%;
+}
+.searchBoxFooter{
+  padding-left: 40%;
+ margin-bottom: 5%;
+   
+}
+@media only screen and (max-width: 600px) {
+    .searchBoxFooter {
+     
+        margin-left: 3%;
+    }
+   
+  }
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+    width: 40%;   
+    border-radius: 20px;
+}
+
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+   
+}
+.customCardBody{
+ 
+  
+    border-style:solid;
+    border-color: rgb(191, 194, 194);
+    
+    
+}
+
+  footer a{
+    text-decoration: none;
+    color:black;
+}
+
+.footer1st a{
+    margin-right: 2%;
+}
+
+/* footer end  */
