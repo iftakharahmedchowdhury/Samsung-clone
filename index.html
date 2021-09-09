@@ -72,7 +72,13 @@
                 <!-- <img src="..." class="d-block w-100" alt="..."> -->
                 
                
-                    <video id="vid"  src="image/introSlider/samVideo.webm" class="d-block w-100" alt="..." autoplay></video>
+                <div class="video-wrap">
+                    <video class="w-100" id="slide-video" poster="images/videos/1.jpg" preload="auto" loop autoplay muted>
+                        <source src='image/introSlider/samVideo.webm' type='video/webm' />
+                        <!-- <source src='images/videos/1.mp4' type='video/mp4' /> -->
+                    </video>
+                    <div class="video-overlay" style="background-color: rgba(0,0,0,0.1);"></div>
+                </div>
                 
                 <div class="carousel-caption d-none d-md-block">
                   <!-- <h5>First slide label</h5>
@@ -496,14 +502,14 @@
        <div class="container Footerbutton d-flex justify-content-center">
            <div class="row">
                <div class="col-2"></div>
-               <div class="col-8 ">
-                <button class="FooterDeviceButton">Galaxy s21 ultra</button>
-                <button class="FooterDeviceButton">Galaxy s21 ultra</button>
-                <button class="FooterDeviceButton">Galaxy s21 ultra</button>
-                <button class="FooterDeviceButton">Galaxy s21 ultra</button>
-                <button class="FooterDeviceButton">Galaxy s21 ultra</button>
-                <button class="FooterDeviceButton">Galaxy s21 ultra</button>
-                <button class="FooterDeviceButton">Galaxy s21 ultra</button>
+               <div class="col-8 FooterDeviceButtonDiv">
+                <button class="FooterDeviceButton"><small>Galaxy s21 ultra</small></button>
+                <button class="FooterDeviceButton"><small>Galaxy s21 ultra</small></button>
+                <button class="FooterDeviceButton"><small>Galaxy s21 ultra</small></button>
+                <button class="FooterDeviceButton"><small>Galaxy s21 ultra</small></button>
+                <button class="FooterDeviceButton"><small>Galaxy s21 ultra</small></button>
+                <button class="FooterDeviceButton"><small>Galaxy s21 ultra</small></button>
+                <button class="FooterDeviceButton"><small>Galaxy s21 ultra</small></button>
 
                </div>
                <div class="col-2"></div>

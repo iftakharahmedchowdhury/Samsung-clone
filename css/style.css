@@ -386,12 +386,16 @@ background-size: cover;
   /* footer search box  */
  
 /* Bootstrap 4 text input with search icon */
+.FooterDeviceButtonDiv{
+    
+}
 .FooterDeviceButton{
-    background-color:rgb(216, 212, 212);
+    background-color:rgb(255, 255, 255);
     border-radius:20px;
     font-size: 13px;
-    padding: 2%;
-    margin-top: 1%;
+    padding: 1%;
+    margin: 10px 15px 3px 4px;
+    text-align: center;
     
 }
 .Footerbutton{
