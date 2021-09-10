@@ -28,7 +28,7 @@ const RefrigeratorFun=()=>{
     //  <img class="applianceImg"  src="image/refrigerator/02washerimg.jp" alt="">
      mainDiv.innerHTML=`
      <div class="Refrigerators washerImg">
-     <img class="applianceImg"  src="image/refrigerator/02washerimg.jpg" alt="">
+     <img class="applianceImg "  src="image/refrigerator/02washerimg.jpg" alt="">
      
  </div>
  <div class="applianceGradiant">

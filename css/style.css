@@ -44,16 +44,15 @@
  
 
 .tvAndAvBg{
-  background-image:url(../image/TvandAv/02.jpg);
+  /* background-image:url(../image/TvandAv/02.jpg); */
    
-   width: 100%;
-   height: 700px;
+   /* width: 100%; */
+   /* height: 700px; */
 }
 
-@media screen and (max-height: 400px) {
+@media screen and (max-height: 768) {
     .tvAndAvBg {
-        width: auto;
-       height: auto;
+       /* width: max-content; */
     }
 }
 /* Tv & Av end  */
@@ -102,12 +101,11 @@
     color: black;
 }
 .applianceImg{
-    height: 600px;
     width: 100%;
-    
-    
+    height: 600px;  
 
 }
+
 
 .RefrigeratorsImg{
 
@@ -120,9 +118,7 @@ position: relative;
 animation-name: example;
 animation-duration: 3s;
 }
-.applianceImage{
-    /* margin-top: -30px; */
-}
+
 
 .washerImg{
     /* background-image: url("../image/refrigerator/02washerimg.jpg"); */
